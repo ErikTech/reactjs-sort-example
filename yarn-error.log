@@ -1,0 +1,26 @@
+Arguments:
+  /Users/Erik/.nvm/versions/node/v10.6.0/bin/node /usr/local/bin/yarn
+
+PATH:
+  /Users/Erik/.nvm/versions/node/v10.6.0/bin:/Users/Erik/.rvm/gems/ruby-2.2.1/bin:/Users/Erik/.rvm/gems/ruby-2.2.1@global/bin:/Users/Erik/.rvm/rubies/ruby-2.2.1/bin:/Users/Erik/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/9.4/bin
+
+Yarn version:
+  0.17.10
+
+Node version:
+  10.6.0
+
+Platform:
+  darwin x64
+
+
+yarn manifest:
+  No manifest
+
+Lockfile:
+  No lockfile
+
+Trace:
+  Error: write EPROTO 140735656563584:error:14094410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1407:SSL alert number 40
+
+      at WriteWrap.afterWrite [as oncomplete] (net.js:835:14)

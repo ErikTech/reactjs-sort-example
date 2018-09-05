@@ -1,0 +1,8 @@
+body {
+    background-color: $background-page;
+    font-family: 'Roboto', sans-serif;
+    a {
+        color: $blue;
+        transition: all 0.4s ease-out;
+    }
+}

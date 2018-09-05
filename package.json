@@ -1,0 +1,63 @@
+{
+	"name": "reacth-example",
+	"version": "2.0.0",
+	"description": "ReactJS example",
+	"main": "webpack.config.js",
+	"scripts": {
+		"start": "NODE_ENV=production webpack --config webpack.config.js",
+		"prod": "yarn start",
+		"dev": "webpack-dev-server --config webpack.config.js",
+		"test": "jest"
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not ie <= 8"
+	],
+	"author": "erik",
+	"license": "ISC",
+	"devDependencies": {
+		"autoprefixer": "^8.1.0",
+		"axios": "^0.18.0",
+		"babel-core": "7.0.0-bridge.0",
+		"babel-eslint": "8.2.2",
+		"babel-jest": "22.4.3",
+		"copy-webpack-plugin": "^4.5.1",
+		"css-loader": "^0.28.10",
+		"enzyme": "3.2.0",
+		"enzyme-adapter-react-16": "1.1.1",
+		"html-webpack-plugin": "^3.0.6",
+		"identity-obj-proxy": "^3.0.0",
+		"jest": "22.0.1",
+		"mini-css-extract-plugin": "^0.4.0",
+		"node-sass": "^4.9.2",
+		"postcss-loader": "^2.1.1",
+		"prettier": "1.12.1",
+		"react-addons-test-utils": "15.6.2",
+		"react-test-renderer": "16.2.0",
+		"sass-loader": "^6.0.7",
+		"uglifyjs-webpack-plugin": "^1.2.3",
+		"webpack": "^4.16.2",
+		"webpack-cli": "^2.0.11",
+		"webpack-dev-server": "^3.1.5"
+	},
+	"dependencies": {
+		"@babel/core": "latest",
+		"@babel/plugin-proposal-class-properties": "latest",
+		"@babel/plugin-proposal-object-rest-spread": "latest",
+		"@babel/plugin-syntax-dynamic-import": "latest",
+		"@babel/plugin-transform-react-jsx-source": "latest",
+		"@babel/plugin-transform-runtime": "latest",
+		"@babel/preset-env": "latest",
+		"@babel/preset-react": "latest",
+		"@babel/runtime": "latest",
+		"@babel/template": "latest",
+		"babel-loader": "latest",
+		"babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+		"prop-types": "^15.6.2",
+		"react": "^16.4.1",
+		"react-dom": "^16.4.1",
+		"react-router": "^4.3.1",
+		"react-router-dom": "^4.3.1"
+	}
+}

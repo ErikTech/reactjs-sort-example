@@ -1,0 +1,9 @@
+footer {
+    background-color: darken($react-dark, 20%);
+    padding: 2rem;
+    h3 {
+        font-size: 1.3rem;
+        color: $white;
+        font-weight: 200;
+    }
+}

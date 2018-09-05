@@ -1,0 +1,12 @@
+.main-header {
+    background-color: $react-dark;
+    padding: 4rem;
+    svg {
+        fill: $white;
+        width: 180px;
+    }
+    h1, h2{
+      color: $white;
+      padding: 10px 0 ;
+    }
+}
