@@ -1,5 +1,8 @@
 ## ReactJS Example
 
+Receives data from API with sample tests that have a rank, a title, a date, a poster, and content.
+React Router used for routing and pagination
+
 testing:
 jest
 enzyme
